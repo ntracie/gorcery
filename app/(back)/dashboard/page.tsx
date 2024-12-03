@@ -615,7 +615,7 @@ export default function SidebarV1() {
                     </Button>
                   </div>
                 </CardHeader>
-                <CardContent className="grid gap-8">
+                {/* <CardContent className="grid gap-8">
                   {patients &&
                     patients.slice(0, 5).map((patient) => {
                       const initials = getInitials(patient.name);
@@ -648,7 +648,7 @@ export default function SidebarV1() {
                         </div>
                       );
                     })}
-                </CardContent>
+                </CardContent> */}
               </Card>
             </div>
           </div>
